@@ -1,0 +1,311 @@
+
+.container{
+    width:90%;
+	margin-left:5%;
+	margin-bottom: 20px;
+  display:grid;
+  grid-template-rows:1fx;
+  grid-template-columns: repeat(3,1fx);
+  background-color:white; 
+}
+
+.slider{
+  grid-column-start: 3;
+  grid-column-end: 4;
+  width:200px;
+  height:200px;
+  background: url("../../logo/iiit logo/iiitagartala.png");
+ margin-top: 50px;
+ margin-bottom: 50px;
+  animation: slide 34s infinite;
+
+}
+@keyframes slide{
+
+ 3%{background: url("../../logo/iiit logo/iiitallahabad.png");}
+ 6%{background: url("../../logo/iiit logo/iiitbhagalpur.png");}
+ 9%{background: url("../../logo/iiit logo/iiitbhopal.png");}
+ 12%{background: url("../../logo/iiit logo/iiitdharwad.png");}
+ 15%{background: url("../../logo/iiit logo/iiitguwahati.png");}
+ 18%{background: url("../../logo/iiit logo/iiitgwalior.png");}
+ 21%{background: url("../../logo/iiit logo/iiitjabalpur.png");}
+ 24%{background: url("../../logo/iiit logo/iiitkalyani.png");}
+ 27%{background: url("../../logo/iiit logo/iiitkancheepuram.png");}
+ 30%{background: url("../../logo/iiit logo/iiitkota.png");}
+ 33%{background: url("../../logo/iiit logo/iiitkottayam.png");}
+ 36%{background: url("../../logo/iiit logo/iiitkurnool.png");}
+ 39%{background: url("../../logo/iiit logo/iiitlucknow.png");}
+ 42% {background: url("../../logo/iiit logo/iiitmanipur.png");}
+ 45%{background: url("../../logo/iiit logo/iiitnagpur.png");}
+ 48%{background: url("../../logo/iiit logo/iiitpune.png");}
+ 51%{background: url("../../logo/iiit logo/iiitraichur.png")}
+ 54%{background: url("../../logo/iiit logo/iiitranchi.png");}
+ 57%{background: url("../../logo/iiit logo/iiitsonepat.png");}
+ 60%{background: url("../../logo/iiit logo/iiitsricity.png");}
+ 63%{background: url("../../logo/iiit logo/iiitsurat.png");}
+ 66%{background: url("../../logo/iiit logo/iiittrichy.png");}
+ 69%{background: url("../../logo/iiit logo/iiituna.png");}
+ 72%{background: url("../../logo/iiit logo/iiitvadodara.png");}
+ 75%{background: url("../../logo/iiit logo/iiitkota.png");}
+ 78%{background: url("../../logo/iiit logo/iiitallahabad.png");}
+ 81%{background: url("../../logo/iiit logo/iiitbhagalpur.png");}
+ 84%{background: url("../../logo/iiit logo/iiitbhopal.png");}
+ 87%{background: url("../../logo/iiit logo/iiitdharwad.png");}
+ 90%{background: url("../../logo/iiit logo/iiitguwahati.png");}
+ 93%{background: url("../../logo/iiit logo/iiitgwalior.png");}
+ 100%{background: url("../../logo/iiit logo/iiitjabalpur.png");}
+ 0%{background: url("../../logo/iiit logo/iiitagartala.png");}           
+}
+.slider2{
+	
+   grid-column-start: 1;
+  grid-column-end: 2;
+   width:200px;
+  height:200px;
+  background: url("../../logo/iit logo/iitbhilai.png");
+ margin-top: 50px;
+ margin-bottom: 50px;
+ margin-left: 140px;
+  animation: slide2 34s infinite;
+
+}
+@keyframes slide2{
+ 3%{background: url("../../logo/iit logo/iitbhuvneshwar.png");}
+ 6%{background: url("../../logo/iit logo/iitbombay.png");}
+ 9%{background: url("../../logo/iit logo/iitropar.png");}
+ 12%{background: url("../../logo/iit logo/iitdelhi.png");}
+ 15%{background: url("../../logo/iit logo/iitdhanbad.png");} 
+ 18%{background: url("../../logo/iit logo/iitdharwad.png");}
+ 21%{background: url("../../logo/iit logo/iitgandhinagar.png");}
+ 24%{background: url("../../logo/iit logo/iitgoa.png");}
+ 27%{background: url("../../logo/iit logo/iitguwahati.png");}
+ 30%{background: url("../../logo/iit logo/iithyderabad.png");}
+ 33%{background: url("../../logo/iit logo/iitindore.png");}
+ 36%{background: url("../../logo/iit logo/iitjammu.png");}
+ 39%{background: url("../../logo/iit logo/iitjodhpur.png");}
+ 42%{background: url("../../logo/iit logo/iitkanpur.png");}
+ 45%{background: url("../../logo/iit logo/iitkharagpur.png");}
+ 48%{background: url("../../logo/iit logo/iitmadras.png");}
+ 51%{background: url("../../logo/iit logo/iitmandi.png");}
+ 54%{background: url("../../logo/iit logo/iitpallakad.png")}
+ 57%{background: url("../../logo/iit logo/iitpatna.png");}
+ 60%{background: url("../../logo/iit logo/iittirupati.png");}
+ 63%{background: url("../../logo/iit logo/iitvaranasi.png");}
+ 66%{background: url("../../logo/iit logo/iitroorkee.png");}
+ 69%{background: url("../../logo/iit logo/iitropar.png");}
+ 72%{background: url("../../logo/iit logo/iitbhuvneshwar.png");}
+ 75%{background: url("../../logo/iit logo/iitbombay.png");}
+ 78%{background: url("../../logo/iit logo/iitdelhi.png");}
+ 81%{background: url("../../logo/iit logo/iitdhanbad.png");} 
+ 84%{background: url("../../logo/iit logo/iitdharwad.png");}
+ 87%{background: url("../../logo/iit logo/iitgandhinagar.png");}
+ 90%{background: url("../../logo/iit logo/iitgoa.png");}
+ 93%{background: url("../../logo/iit logo/iitguwahati.png");}
+ 100%{background: url("../../logo/iit logo/iithyderabad.png");}
+ 0%{background: url("../../logo/iit logo/iitbhilai.png");}
+}
+.slider3{
+
+   grid-column-start: 2;
+  grid-column-end: 3;
+   width:200px;
+  height:200px;
+  background: url("../../logo/nit logo/nitagartala.png");
+   margin-top: 50px;
+ margin-bottom: 50px;
+  animation: slide3 34s infinite;
+
+}
+@keyframes slide3{
+
+ 3%{background: url("../../logo/nit logo/nitwarangal.png");}
+ 6%{background: url("../../logo/nit logo/nitallahabad.png");}
+ 9%{background: url("../../logo/nit logo/nitandhra.png");}
+ 12%{background: url("../../logo/nit logo/nitarunachal.png");}
+ 15%{background: url("../../logo/nit logo/nitbhopal.png");}
+ 18%{background: url("../../logo/nit logo/nitcalicut.png");}
+ 21%{background: url("../../logo/nit logo/nitdelhi.png");}
+ 24%{background: url("../../logo/nit logo/nitdurgapur.png");}
+ 27%{background: url("../../logo/nit logo/nitgoa.png");}
+ 30%{background: url("../../logo/nit logo/nithamirpur.png");}
+ 33%{background: url("../../logo/nit logo/nitjaipur.png");}
+ 36%{background: url("../../logo/nit logo/nitjalandhar.png");}
+ 39%{background: url("../../logo/nit logo/nitjamshedpur.png");}
+ 42%{background: url("../../logo/nit logo/nitkurushetra.png");}
+ 45%{background: url("../../logo/nit logo/nitmanipur.png");}
+ 48%{background: url("../../logo/nit logo/nitmeghalaya.png");}
+ 51%{background: url("../../logo/nit logo/nitmizoram.png");}
+ 54%{background: url("../../logo/nit logo/nitnagaland.png");}
+ 57%{background: url("../../logo/nit logo/nitnagpur.png");}
+ 60%{background: url("../../logo/nit logo/nitpatna.png");}
+ 63%{background: url("../../logo/nit logo/nitpuducherry.png");}
+ 66%{background: url("../../logo/nit logo/nitraipur.png");}
+ 69%{background: url("../../logo/nit logo/nitrourkela.png");}
+ 72%{background: url("../../logo/nit logo/nitsikkim.png");}
+ 75%{background: url("../../logo/nit logo/nitshibpur.png");}
+ 78%{background: url("../../logo/nit logo/nitsilchar.png");}
+ 81%{background: url("../../logo/nit logo/nitsurat.png");}
+ 84%{background: url("../../logo/nit logo/nitsrinagar.png");}
+ 87%{background: url("../../logo/nit logo/nitsuratkhal.png");}
+ 90%{background: url("../../logo/nit logo/nittrichy.png");}
+ 93%{background: url("../../logo/nit logo/nituttarakhand.png");}
+ 100%{background: url("../../logo/nit logo/nitwarangal.png");}
+ 0%{background: url("../../logo/nit logo/nitagartala.png");}
+}
+@media screen and (max-width: 480px) {
+  .container{
+      margin-left:5%;
+    display:grid;
+    grid-template-rows:1fx;
+    grid-template-columns: repeat(3,1fx);
+    background-color:white; 
+  }
+  .slider{
+  grid-column-start: 3;
+  grid-column-end: 4;
+  width:70px;
+  height:70px;
+  background: url("../../logo/iiit logo/iiitagartala.png");
+  background-size: cover;
+ margin-top: 50px;
+ margin-bottom: 50px;
+ margin-left:30px;
+  animation: slide 34s infinite;
+
+}
+@keyframes slide{
+
+ 3%{background: url("../../logo/iiit logo/iiitallahabad.png");  background-size: cover;}
+ 6%{background: url("../../logo/iiit logo/iiitbhagalpur.png");  background-size: cover;}
+ 9%{background: url("../../logo/iiit logo/iiitbhopal.png");  background-size: cover;}
+ 12%{background: url("../../logo/iiit logo/iiitdharwad.png");  background-size: cover;}
+ 15%{background: url("../../logo/iiit logo/iiitguwahati.png");  background-size: cover;}
+ 18%{background: url("../../logo/iiit logo/iiitgwalior.png");  background-size: cover;}
+ 21%{background: url("../../logo/iiit logo/iiitjabalpur.png");  background-size: cover;}
+ 24%{background: url("../../logo/iiit logo/iiitkalyani.png");  background-size: cover;}
+ 27%{background: url("../../logo/iiit logo/iiitkancheepuram.png");  background-size: cover;}
+ 30%{background: url("../../logo/iiit logo/iiitkota.png");  background-size: cover;}
+ 33%{background: url("../../logo/iiit logo/iiitkottayam.png");  background-size: cover;}
+ 36%{background: url("../../logo/iiit logo/iiitkurnool.png");  background-size: cover;}
+ 39%{background: url("../../logo/iiit logo/iiitlucknow.png");  background-size: cover;}
+ 42% {background: url("../../logo/iiit logo/iiitmanipur.png");  background-size: cover;}
+ 45%{background: url("../../logo/iiit logo/iiitnagpur.png");  background-size: cover;}
+ 48%{background: url("../../logo/iiit logo/iiitpune.png");  background-size: cover;}
+ 51%{background: url("../../logo/iiit logo/iiitraichur.png")  background-size: cover;}
+ 54%{background: url("../../logo/iiit logo/iiitranchi.png");  background-size: cover;}
+ 57%{background: url("../../logo/iiit logo/iiitsonepat.png");  background-size: cover;}
+ 60%{background: url("../../logo/iiit logo/iiitsricity.png");  background-size: cover;}
+ 63%{background: url("../../logo/iiit logo/iiitsurat.png");  background-size: cover;}
+ 66%{background: url("../../logo/iiit logo/iiittrichy.png");  background-size: cover;}
+ 69%{background: url("../../logo/iiit logo/iiituna.png");  background-size: cover;}
+ 72%{background: url("../../logo/iiit logo/iiitvadodara.png");  background-size: cover;}
+ 75%{background: url("../../logo/iiit logo/iiitkota.png");  background-size: cover;}
+ 78%{background: url("../../logo/iiit logo/iiitallahabad.png");  background-size: cover;}
+ 81%{background: url("../../logo/iiit logo/iiitbhagalpur.png");  background-size: cover;}
+ 84%{background: url("../../logo/iiit logo/iiitbhopal.png");  background-size: cover;}
+ 87%{background: url("../../logo/iiit logo/iiitdharwad.png");  background-size: cover;}
+ 90%{background: url("../../logo/iiit logo/iiitguwahati.png");  background-size: cover;}
+ 93%{background: url("../../logo/iiit logo/iiitgwalior.png");  background-size: cover;}
+ 100%{background: url("../../logo/iiit logo/iiitjabalpur.png");  background-size: cover;}
+ 0%{background: url("../../logo/iiit logo/iiitagartala.png");  background-size: cover;}           
+}
+.slider2{
+  
+   grid-column-start: 1;
+  grid-column-end: 2;
+   width:70px;
+  height:70px;
+  background: url("../../logo/iit logo/iitbhilai.png");
+  background-size: cover;
+ margin-top: 50px;
+ margin-bottom: 50px;
+ margin-left: 20%;
+  animation: slide2 34s infinite;
+
+}
+@keyframes slide2{
+ 3%{background: url("../../logo/iit logo/iitbhuvneshwar.png");  background-size: cover;}
+ 6%{background: url("../../logo/iit logo/iitbombay.png");  background-size: cover;}
+ 9%{background: url("../../logo/iit logo/iitropar.png");  background-size: cover;}
+ 12%{background: url("../../logo/iit logo/iitdelhi.png");  background-size: cover;}
+ 15%{background: url("../../logo/iit logo/iitdhanbad.png");  background-size: cover;} 
+ 18%{background: url("../../logo/iit logo/iitdharwad.png");  background-size: cover;}
+ 21%{background: url("../../logo/iit logo/iitgandhinagar.png");  background-size: cover;}
+ 24%{background: url("../../logo/iit logo/iitgoa.png");  background-size: cover;}
+ 27%{background: url("../../logo/iit logo/iitguwahati.png");  background-size: cover;}
+ 30%{background: url("../../logo/iit logo/iithyderabad.png");  background-size: cover;}
+ 33%{background: url("../../logo/iit logo/iitindore.png");  background-size: cover;}
+ 36%{background: url("../../logo/iit logo/iitjammu.png");  background-size: cover;}
+ 39%{background: url("../../logo/iit logo/iitjodhpur.png");  background-size: cover;}
+ 42%{background: url("../../logo/iit logo/iitkanpur.png");  background-size: cover;}
+ 45%{background: url("../../logo/iit logo/iitkharagpur.png");  background-size: cover;}
+ 48%{background: url("../../logo/iit logo/iitmadras.png");  background-size: cover;}
+ 51%{background: url("../../logo/iit logo/iitmandi.png");  background-size: cover;}
+ 54%{background: url("../../logo/iit logo/iitpallakad.png")  background-size: cover;}
+ 57%{background: url("../../logo/iit logo/iitpatna.png");  background-size: cover;}
+ 60%{background: url("../../logo/iit logo/iittirupati.png");  background-size: cover;}
+ 63%{background: url("../../logo/iit logo/iitvaranasi.png");   background-size: cover;}
+ 66%{background: url("../../logo/iit logo/iitroorkee.png");  background-size: cover;}
+ 69%{background: url("../../logo/iit logo/iitropar.png");  background-size: cover;}
+ 72%{background: url("../../logo/iit logo/iitbhuvneshwar.png");  background-size: cover;}
+ 75%{background: url("../../logo/iit logo/iitbombay.png");  background-size: cover;}
+ 78%{background: url("../../logo/iit logo/iitdelhi.png");  background-size: cover;}
+ 81%{background: url("../../logo/iit logo/iitdhanbad.png");  background-size: cover;} 
+ 84%{background: url("../../logo/iit logo/iitdharwad.png");  background-size: cover;}
+ 87%{background: url("../../logo/iit logo/iitgandhinagar.png");   background-size: cover;}
+ 90%{background: url("../../logo/iit logo/iitgoa.png");  background-size: cover;}
+ 93%{background: url("../../logo/iit logo/iitguwahati.png");  background-size: cover;}
+ 100%{background: url("../../logo/iit logo/iithyderabad.png");  background-size: cover;}
+ 0%{background: url("../../logo/iit logo/iitbhilai.png");  background-size: cover;}
+}
+.slider3{
+
+   grid-column-start: 2;
+  grid-column-end: 3;
+   width:70px;
+  height:70px;
+  background: url("../../logo/iiit logo/nitagartala.png");
+  background-size: cover;
+   margin-top: 50px;
+ margin-bottom: 50px;
+ margin-left:50px;
+  animation: slide3 34s infinite;
+
+}
+@keyframes slide3{
+
+ 3%{background: url("../../logo/nit logo/nitwarangal.png");  background-size: cover;}
+ 6%{background: url("../../logo/nit logo/nitallahabad.png");  background-size: cover;}
+ 9%{background: url("../../logo/nit logo/nitandhra.png");  background-size: cover;}
+ 12%{background: url("../../logo/nit logo/nitarunachal.png");  background-size: cover;}
+ 15%{background: url("../../logo/nit logo/nitbhopal.png");  background-size: cover;}
+ 18%{background: url("../../logo/nit logo/nitcalicut.png");  background-size: cover;}
+ 21%{background: url("../../logo/nit logo/nitdelhi.png");  background-size: cover;}
+ 24%{background: url("../../logo/nit logo/nitdurgapur.png");  background-size: cover;}
+ 27%{background: url("../../logo/nit logo/nitgoa.png");  background-size: cover;}
+ 30%{background: url("../../logo/nit logo/nithamirpur.png");  background-size: cover;}
+ 33%{background: url("../../logo/nit logo/nitjaipur.png");  background-size: cover;}
+ 36%{background: url("../../logo/nit logo/nitjalandhar.png");  background-size: cover;}
+ 39%{background: url("../../logo/nit logo/nitjamshedpur.png");  background-size: cover;}
+ 42%{background: url("../../logo/nit logo/nitkurushetra.png");  background-size: cover;}
+ 45%{background: url("../../logo/nit logo/nitmanipur.png");  background-size: cover;}
+ 48%{background: url("../../logo/nit logo/nitmeghalaya.png");  background-size: cover;}
+ 51%{background: url("../../logo/nit logo/nitmizoram.png");  background-size: cover;}
+ 54%{background: url("../../logo/nit logo/nitnagaland.png");  background-size: cover;}
+ 57%{background: url("../../logo/nit logo/nitnagpur.png");  background-size: cover;}
+ 60%{background: url("../../logo/nit logo/nitpatna.png");  background-size: cover;}
+ 63%{background: url("../../logo/nit logo/nitpuducherry.png");  background-size: cover;}
+ 66%{background: url("../../logo/nit logo/nitraipur.png");  background-size: cover;}
+ 69%{background: url("../../logo/nit logo/nitrourkela.png");  background-size: cover;}
+ 72%{background: url("../../logo/nit logo/nitsikkim.png");  background-size: cover;}
+ 75%{background: url("../../logo/nit logo/nitshibpur.png");  background-size: cover;}
+ 78%{background: url("../../logo/nit logo/nitsilchar.png");  background-size: cover;}
+ 81%{background: url("../../logo/nit logo/nitsurat.png");  background-size: cover;}
+ 84%{background: url("../../logo/nit logo/nitsrinagar.png");  background-size: cover;}
+ 87%{background: url("../../logo/nit logo/nitsuratkhal.png");  background-size: cover;}
+ 90%{background: url("../../logo/nit logo/nittrichy.png");  background-size: cover;}
+ 93%{background: url("../../logo/nit logo/nituttarakhand.png");  background-size: cover;}
+ 100%{background: url("../../logo/nit logo/nitwarangal.png");  background-size: cover;}
+ 0%{background: url("../../logo/nit logo/nitagartala.png");  background-size: cover;}
+}
+  }

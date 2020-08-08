@@ -1,0 +1,229 @@
+<!DOCTYPE HTML>
+
+<html  lang="en-US">
+	<head>
+		<title>Jee Councelling</title>
+		<link rel = "icon" href ="images/icon.jpg" type = "image/x-icon"> 
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=1" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+		<style>
+		#councellingform{
+			display:flex;
+    	justify-content: center;
+    	margin-top: 50px;
+    	border:10px;
+    	border-color:red;
+
+
+		}
+    #fieldset{
+    	
+    	width:30%;
+    	background:transparent;
+    	margin-bottom: 50px;
+    	border: 3px ;
+    	border-style: solid dotted solid dotted;
+    	border-color:#32a887;
+    }
+    @media screen and (max-width: 480px) {
+     #fieldset{
+    	
+    	width:100px;
+    	background:transparent;
+    	margin-bottom: 50px;
+    	border: 3px ;
+    	border-style: solid dotted solid dotted;
+    	border-color:#32a887;
+    margin-left:10%;
+    margin-right:10%;
+    }
+    
+}
+    #fieldset legend{
+    	
+    	color:#32a887;
+    	font-weight: bold;
+    	
+    }
+    #fieldset label{
+    	font-weight: bold;
+    	color:black;
+    }
+    #fieldset input{
+    	border-radius: 10px;
+    	width:50%;
+    	border:none;
+    	outline:none;
+    	background:transparent;
+    	background-color: #fff;
+    	
+    }
+  ::placeholder {
+     	color:black;
+     	opacity:0.7;
+     }
+    #fieldset button:hover{
+    	background-color:#32a887;
+    	
+    }
+    .b1 {
+    	color:black;
+    }
+
+    label[id*='name']::after {content: "*"; color:red;} 
+    label[id*='email']::after {content: "*"; color:red;} 
+    .gr {
+    	display:grid;
+    	grid-template-rows:1px;
+    	grid-template-columns:30px 30px;
+    }
+    .gr1{
+    	grid-column-start:1;
+    	grid-column-end:2;
+    }
+    .gr2{
+    	grid-column-start:2;
+    	grid-column-end:3;
+    }
+	</style>
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<a class="logo" href="index.html">College <span style="color:rgb(9, 129, 209);">Explorer</span></a>
+				<nav>
+					<a href="#menu">Menu</a>
+				</nav>
+			</header>
+
+		<!-- Nav -->
+			<nav id="menu">
+				<a href="index.html"><i class="fa fa-chevron-left" style="font-size:17px;color:white;"></i></a>
+				<ul class="links">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="IIT-HOME1.html">IIT</a></li>
+					<li><a href="NIT-HOME1.html">NIT</a></li>
+                    <li><a href="IIIT-HOME1.html">IIIT</a></li>
+                    <li> <a href="index.html#down">Downloads</a></li>
+				</ul>
+			</nav>
+
+		<!-- Heading -->
+			<div id="heading" >
+				<h1>JEE COUNCELLING</h1>
+				
+			</div>
+
+<!--Content-->
+                <br>
+				<p style="font-size:17px;text-align: center;font-weight: bold ">Send Us Your Queries,We Will Get Back To Within 24 Hrs</p>
+
+				<form id="councellingform"  action="contact.php" method="GET">
+			 <fieldset id="fieldset">
+			 	 <legend>Enter Your Details</legend>
+
+			<i class="fa fa-user" style="color:#32a887;" aria-hidden="true"></i>
+            <label for="name">Name</label><br>
+            <input type="text" id="name" name="name" placeholder="Enter Your Name" ><br>
+            <label id="nameerror" style="color:red;visibility:hidden;font-size:12px;">Invalid Name</label><br>
+
+			<i class="fa fa-envelope" style="color:#32a887;" aria-hidden="true"></i>
+            <label for="email" >Email</label><br>
+			<input type="email" id="email" name="email" placeholder="Enter Your Email" ><br>
+			<label id="emailerror" style="color:red;visibility:hidden;font-size:12px;">Invalid Email</label><br>
+
+			<i class="fa fa-mobile" style="color:#32a887;" aria-hidden="true"></i>
+            <label for="number">Mobile No</label><br>
+            <input type="text" value="+91" style="width:30px;" readonly>
+            <img src="images/indiaflag.png" alt="India" >
+		    <input type="text" id="number" name="number" placeholder="Enter Your Mobile No"><br>
+			<label id="numbererror" style="color:red;visibility:hidden;font-size:12px;">Invalid Mobile Number</label><br>
+            
+			
+             <i class="fa fa-comments" style="color:#32a887;" aria-hidden="true"></i>
+             <label>Enter Your Query</label><br>
+			 <textarea name="message" rows="9" cols="40">
+             </textarea> <br>
+
+			
+            <button  type="submit"><i class="fa fa-handshake-o" aria-hidden="true"></i> <span class="b1"> Submit </span> </button>
+             <button  type="reset"><i class="fa fa-spinner" aria-hidden="true"></i><span class="b1"> 
+Reset </span></button>
+			 </fieldset>
+		</form>
+
+
+
+<!--Content Closes-->	
+
+
+
+
+	
+
+	<!-- Footer -->
+		<footer id="footer">
+			<div class="inner">
+				<div class="content">
+					<p>Top Links: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>
+						     <div class="toplink">
+							<ul>
+							  
+							  <li><a href="https://jeemain.nta.nic.in/webinfo/public/home.aspx">JEE Mains</a></li>
+							  
+							   <li><a href="http://www.jeeadv.ac.in/">JEE Advanced</a></li>
+							  
+							   <li><a href="https://nta.ac.in/">National Testing Agency</a></li>
+							  
+							   <li><a href="https://mhrd.gov.in/">Ministry of Human Resource Department</a></li>
+						      
+						     </ul>
+						     	</div> 
+				</div>
+				<div class="copyright">
+                     <p><span style="font-size:150%;color:red;">&hearts;</span>Made With Love &copy; <span style="color:white">College</span><span style="color:rgb(9,129,209)">Explorer</span> </p>
+					
+				</div>
+			</div>
+		</footer>
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+
+<script >
+		function validate()
+		{
+			var name=document.getElementById("name");
+	
+			var email=document.getElementById("email");
+			var number=document.getElementById("number");
+			if(name.value.trim()=="")
+			{
+				name.style.border="solid 2px red";
+				document.getElementById("nameerror").style.visibility="visible";
+				return false;
+			}
+			else if(email.value.trim()=="")
+			{
+				email.style.border="solid 2px red";
+				document.getElementById("emailerror").style.visibility="visible";
+               return false;
+			}
+			else
+			{
+				return true;
+			}
+		}
+		
+	</script>
+	</body>
+</html>
